@@ -1,0 +1,39 @@
+h3 {
+    color: #EEC4C9;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+form {
+    text-align: center;
+    margin: auto;
+    margin-left: 400px;
+}
+
+td {
+    border: solid 10px ;
+    background-color: black;
+    width: 50px;
+    height: 50px;
+    border-radius: 7%;
+    color: #EEC4C9;
+}
+
+#calc_resultat {
+    background-color: black;
+    width: 330px;
+    height: 45px;
+    border: none;
+    margin: 10px 10px;
+}
+
+/* je veux changer la couleur de ma case */
+
+tr #ac {
+    background-color: #EEC4C9;
+}
+
+#ac::first-line {
+    color: black;
+}
